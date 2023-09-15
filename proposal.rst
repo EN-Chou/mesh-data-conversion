@@ -83,7 +83,6 @@ to perform desired behavior.
 API Description
 ===============
 
-+ Show how your system can be programmed.
 The system can be programmed with bash script, python and C++ altogether. The interface 
 will be CLI, the user use :code:`make` tool to import :code:`.msh` file and generate :code:`.dat` 
 file for the corresponding numerical code. Regarding different numerical code, 
@@ -120,17 +119,16 @@ Schedule
 * Planning phase (6 weeks from mm/dd to mm/dd):
 * Session 1 (09/16): Survey the format of target mesh data.
 * Session 2 (09/18): Prepare sample :code:`.msh` files and learn its format.
-* Session 3 (09/20): Draft a :code:`Makefile` to allow reading :code:`.msh` in python and writing 
-a exact same file with C++.
+* Session 3 (09/20): Draft a :code:`Makefile` to allow reading :code:`.msh` in python and writing a exact same file with C++.
 
 (Trip from 9/21 - 9/26)
 
-* Session 4 (09/28): Implement 2D uniform staggered grid conversion in C++
-* Session 5 (10/01): Implement 1D CESE conversion in C++
+* Session 4 (09/28): Implement 2D uniform staggered grid conversion in C++.
+* Session 5 (10/01): Implement 1D CESE conversion in C++.
 
 (First day of job: 10/2)
 
-* Session 6 (10/08): Implement CI
+* Session 6 (10/08): Implement CI.
 * Session 7 (mm/dd):
 
 References
