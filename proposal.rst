@@ -119,7 +119,8 @@ Schedule
 (Trip from 9/21 - 9/26)
 * Session 4 (09/28): Implement 2D uniform staggered grid conversion in C++
 * Session 5 (10/01): Implement 1D CESE conversion in C++
-* Session 6 (mm/dd):
+(First day of job: 10/2)
+* Session 6 (10/08): Implement CI
 * Session 7 (mm/dd):
 
 References
