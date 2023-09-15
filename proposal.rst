@@ -50,6 +50,7 @@ scripted into `Makefile`, and it will be used to build C++ and python code,
 something like
 
 .. code-block:: bash
+
     .PHONY: cese
     cese:
         g++ cese.cpp
@@ -89,11 +90,15 @@ file for the corresponding numerical code. Regarding different numerical code,
 different target is made, e.g,
 
 for CESE
+
 .. code-block:: bash
+
     make cese MESH_PATH=Geometria1.msh 
 
 for uniform staggered grid
+
 .. code-block:: bash
+
     make stagger MESH_PATH=Geometria1.msh
 
 
@@ -115,11 +120,16 @@ Schedule
 * Planning phase (6 weeks from mm/dd to mm/dd):
 * Session 1 (09/16): Survey the format of target mesh data.
 * Session 2 (09/18): Prepare sample `.msh` files and learn its format.
-* Session 3 (09/20): Draft a Makefile to allow reading `.msh` in python and writing a exact same file with C++.
+* Session 3 (09/20): Draft a Makefile to allow reading `.msh` in python and writing 
+a exact same file with C++.
+
 (Trip from 9/21 - 9/26)
+
 * Session 4 (09/28): Implement 2D uniform staggered grid conversion in C++
 * Session 5 (10/01): Implement 1D CESE conversion in C++
+
 (First day of job: 10/2)
+
 * Session 6 (10/08): Implement CI
 * Session 7 (mm/dd):
 
