@@ -120,14 +120,10 @@ Schedule
 * Session 1 (09/16): Survey the format of target mesh data.
 * Session 2 (09/18): Prepare sample :code:`.msh` files and learn its format.
 * Session 3 (09/20): Draft a :code:`Makefile` to allow reading :code:`.msh` in python and writing a exact same file with C++.
-
-(Trip from 9/21 - 9/26)
-
+* Checkpoint 1 (09/26)
 * Session 4 (09/28): Implement 2D uniform staggered grid conversion in C++.
 * Session 5 (10/01): Implement 1D CESE conversion in C++.
-
-(First day of job: 10/2)
-
+* Checkpoint 2 (10/06)
 * Session 6 (10/08): Implement CI.
 * Session 7 (mm/dd):
 
