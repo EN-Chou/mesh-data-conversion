@@ -105,12 +105,15 @@ Engineering Infrastructure
 ==========================
 
 The system should be automatically build with :code:`make` tool, :code:`g++` and :code:`python`. 
-The system should keep some sample :code:`.msh` files in the system, and the CI workflow 
-should make sure the system manage to generate correspond :code:`.dat` files when the 
-system is modified. This will be implemented with Github action, it will be scripted 
-in :code:`.github/workflows`.
+It should keep some sample :code:`.msh` files in the system, :code:`Github action` will be 
+used for version control, and the workflow will be kept under :code:`.github/workflow`, and it will be
+activated when there are new pull requests and at a certain time of a day. 
 
-+ Testing framework (TBD)
+To test our functions, those written in python will be tested in :code:`pytest`. This test should make sure that 
+the functions are capable of taking in :code:`.msh`. and feeding it to C++. Those written in 
+C++ will be tested with :code:`gtest`, this test should make sure that the functions are capable of 
+generating the correct meshes. 
+
 + Documentation (TBD)
 
 Schedule
